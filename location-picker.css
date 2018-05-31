@@ -1,0 +1,28 @@
+#popup-container{
+  width: 80%;
+
+}
+
+#map-container{
+  width: 70%;
+  display: inline-block;
+  height:400px;
+
+}
+
+.ui-dialog{
+  width:80% !important;
+  margin:auto;
+}
+
+.input-box{
+  width:25%;
+  padding: 0.6em;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.input-box input{
+  margin-top:0.8em;
+  margin-bottom: 0.8em;
+}

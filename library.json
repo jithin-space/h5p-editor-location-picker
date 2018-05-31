@@ -1,0 +1,34 @@
+{
+  "title": "H5PEditor.LocationPicker",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 0,
+  "machineName": "H5PEditor.LocationPicker",
+  "author": "Jithin-Space",
+  "preloadedJs": [
+    {
+      "path": "http://maps.google.com/maps/api/js?sensor=false&libraries=places"
+    },
+    {
+      "path": "location-picker.js"
+    },
+    {
+      "path": "map-picker.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "location-picker.css"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName":"jQuery.ui",
+      "majorVersion":1,
+      "minorVersion":10,
+      "defaultStyles":true
+    }
+  ]
+
+}
